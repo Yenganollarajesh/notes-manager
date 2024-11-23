@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/notes';
+const API_URL = 'https://personal-notes-manager-1-vpdn.onrender.com/notes';
 
 export const getNotes = async (category, search) => {
   try {
